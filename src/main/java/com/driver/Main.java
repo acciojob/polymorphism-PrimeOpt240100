@@ -6,9 +6,9 @@ public class Main {
         // Task 2
         Product p = new Product();
 
-        int ans_1 = p.Product(10,20);
-        int ans_2 = p.Product(10,20,30);
-        double ans_3 = p.Product(10.20d,20.10d);
+        int ans_1 = p.product(10,20);
+        int ans_2 = p.product(10,20,30);
+        double ans_3 = p.product(10.20d,20.10d);
         System.out.println(ans_1 + " " + ans_2 + " " + ans_3);
     }
 
@@ -16,17 +16,17 @@ public class Main {
     public static class Product {
 
         // Task 3
-        public int Product(int x, int y) {
+        public int product(int x, int y) {
             return x*y;
         }
 
         // Task 4
-        public int Product(int x, int y, int z) {
+        public int product(int x, int y, int z) {
             return x*y*z;
         }
 
         // Task 5
-        public double Product(double x, double y){
+        public double product(double x, double y){
             return x*y;
         }
 
